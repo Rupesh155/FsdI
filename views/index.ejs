@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2> nani ka gharrrrr</h2>
+     <% for(let i of arr){  %>
+        <div id="card">  
+        <h4>   <%=i.id %></h4>
+        <h4>   <%=i.name %></h4>
+        <h4>   <%=i.lastName %></h4>
+        <a href="/show/<%=i.id %>">show</a>
+        <a href="/shows/create">create</a>
+ 
+    </div>
+
+   <% } %>
+</body>
+</html>
